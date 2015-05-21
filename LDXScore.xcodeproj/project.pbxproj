@@ -14,6 +14,7 @@
 		1D2DDA7B1B098BA90036DB1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2DDA7A1B098BA90036DB1C /* Images.xcassets */; };
 		1D2DDA7E1B098BA90036DB1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2DDA7C1B098BA90036DB1C /* LaunchScreen.xib */; };
 		1D2DDA8A1B098BA90036DB1C /* LDXScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DDA891B098BA90036DB1C /* LDXScoreTests.m */; };
+		1D2DDA951B098BBC0036DB1C /* LDXScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DDA941B098BBC0036DB1C /* LDXScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1D2DDA831B098BA90036DB1C /* LDXScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDXScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2DDA881B098BA90036DB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D2DDA891B098BA90036DB1C /* LDXScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDXScoreTests.m; sourceTree = "<group>"; };
+		1D2DDA931B098BBC0036DB1C /* LDXScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDXScore.h; sourceTree = "<group>"; };
+		1D2DDA941B098BBC0036DB1C /* LDXScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDXScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		1D2DDA6C1B098BA90036DB1C /* LDXScore */ = {
 			isa = PBXGroup;
 			children = (
+				1D2DDA931B098BBC0036DB1C /* LDXScore.h */,
+				1D2DDA941B098BBC0036DB1C /* LDXScore.m */,
 				1D2DDA711B098BA90036DB1C /* AppDelegate.h */,
 				1D2DDA721B098BA90036DB1C /* AppDelegate.m */,
 				1D2DDA741B098BA90036DB1C /* ViewController.h */,
@@ -222,6 +227,7 @@
 				1D2DDA761B098BA90036DB1C /* ViewController.m in Sources */,
 				1D2DDA731B098BA90036DB1C /* AppDelegate.m in Sources */,
 				1D2DDA701B098BA90036DB1C /* main.m in Sources */,
+				1D2DDA951B098BBC0036DB1C /* LDXScore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
