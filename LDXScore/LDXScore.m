@@ -62,6 +62,7 @@
         CGPoint pt = [sender locationInView:self];
         if (pt.x > _padding) {
             _show_star = (pt.x - _padding) / (starWidth + _space) + 1; //计算点击的百分比
+            _show_star = MIN(_show_star, _max_star);
             [self setNeedsDisplay];
         }
     }
@@ -98,6 +99,7 @@
         
         if (pt.x > _padding) {
             _show_star = (pt.x - _padding) / (starWidth + _space) + 1; //计算点击的百分比
+            _show_star = MIN(_show_star, _max_star);
             [self setNeedsDisplay];
         }
     }
@@ -110,6 +112,7 @@
         
         if (pt.x > _padding) {
             _show_star = (pt.x - _padding) / (starWidth + _space) + 1; //计算点击的百分比
+            _show_star = MIN(_show_star, _max_star);
             [self setNeedsDisplay];
         }
     }
